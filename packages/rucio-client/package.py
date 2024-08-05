@@ -1,6 +1,6 @@
 from spack import *
 
-# On conatiner we will need: gfal2-util gfal2-all and voms-clients-java
+# On container we will need: gfal2-util gfal2-all gfal2-plugin-xrootd python3-gfal2 gfal2-plugin-http
 
 class RucioClients(PythonPackage):
     """Rucio is a software framework that provides functionality to
